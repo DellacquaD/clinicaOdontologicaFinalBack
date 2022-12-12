@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background:#8ec09d;
+    color: rgb(78, 78, 78);
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  header > div {
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header > div > h1 {
+    cursor: default;
+  }
+
+  header > div nav {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  header > div > nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+
+  header > div nav > ul > li > a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 2.5rem;
+  }
+
+  header > div nav > ul > li > a:hover {
+    color: #dbdbdb;
+  }
+  
+  main {
+    width: 100%;
+    height: 60vh;
+  }
+
+  main > div {
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  main > div > img {
+    object-fit:contain;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8ec09d;
+    padding: 40px;
+  }
+
+  footer div {
+    align-self: baseline;
+  }
+
+  .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    background-color: #8ec09d;
+    border-radius:15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  height: 60vh;
+}
+
+.row {
+  width: 50%;
+  height: 70%;
+}
+
+
+#odontologo_title {
+  width: 50%;
+  background-color: #8ec09d;
+  text-align: center;
+  padding:20px; 
+  border-radius:15px;
+}
+
+#add_new_odontologo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.form-group > input{
+  gap: 10;
+}
